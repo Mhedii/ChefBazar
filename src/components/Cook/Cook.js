@@ -10,7 +10,7 @@ const Cook = (props) => {
         <div>
             <ul>
                 {
-                    cook?.map(lst => <li>{lst}</li>)
+                    cook?.map(lst => <li><h4>{lst}</h4></li>)
                 }
 
 
