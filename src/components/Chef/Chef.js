@@ -20,7 +20,7 @@ const Chef = () => {
     const handleHire = (chefdetail) => {
         const newCart = [...cart, chefdetail];
         setCart(newCart);
-        const newCook = [...cook, chefdetail];
+        const newCook = [...cook, chefdetail.name];
         setCook(newCook);
     }
     return (

@@ -6,7 +6,7 @@ import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 
 import './Details.css';
 const Details = (props) => {
-    console.log(props.chefdetail)
+
     const Chefdetail = props.chefdetail || [];
     const { img, name, age, cost, star, starCount } = Chefdetail;
     const element = <FontAwesomeIcon icon={faShoppingCart} />
