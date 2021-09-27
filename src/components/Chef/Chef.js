@@ -26,31 +26,18 @@ const Chef = () => {
     return (
         <div className="chef-container">
             <div className="name-container">
-
-
                 {
-
-
                     chefs.map(chef => <Details
                         key={chef.key}
                         chefdetail={chef}
-
                         handleHire={handleHire}
                     >
-
                     </Details>)
-
-
                 }
-
-
             </div>
             <div className="cart-container">
                 <Cart cart={cart}></Cart>
                 <Cook cook={cook}></Cook>
-
-
-
             </div>
         </div>
 
